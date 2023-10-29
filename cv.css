@@ -1,0 +1,276 @@
+
+div{
+    margin-left: 1%; 
+}
+body{
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-right: -1%;
+
+    background-color:rgb(147, 147, 147);
+}
+
+.parte-superior{
+    margin-left: 0%;
+
+}
+.fotoFons {
+    width: 100%;
+    height: 700px;
+
+}
+#insta{
+    position: relative;
+    width: 85px;
+    left: 15%;
+}
+#link{
+    position: relative;
+    width: 80px;
+    left: 40%;
+}
+#gmail{
+    position: relative;
+    width: 90px;
+    left: 65%;
+}
+#nav{
+    margin-top: 0%;
+    position: absolute;
+    top: 10px;
+    left: 53%;
+}
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+#nav a{
+    display: block;  
+    padding:  50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+#nav li{
+    float: left;
+}
+#nav img{
+    position: absolute;
+    width: 45px;
+    top: 25%;
+}
+.text-card{
+    margin-top: 2%;
+    color: white;
+    position: absolute;
+    font-style: italic;
+    font-size: 50px;
+    top: 10px;
+    left: 10px;
+}
+.text-card span{
+    color: red;
+    font-weight: bold;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part-fosca{
+    position: absolute;
+    left: -2%;
+    top: 0;
+    width: 100%;
+    height: 130px; /* Ajusta la altura según lo que necesites */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.724));
+    display: flex;
+
+}
+.recuadro{
+    margin-top: 10%;
+    position: absolute;
+    width: 83%;
+    height: 75%;
+    border: 2px solid #000;
+    background-color: white;
+    align-content: center;
+
+}
+
+.recuadro_largo{
+    margin-top: 22.4%;
+    position: absolute;
+    width: 83%;
+    height: 100%;
+    border: 2px solid #000;
+    background-color: white;
+    align-content: center;
+
+}
+.recuadro_curt{
+    margin-top: 10%;
+    position: absolute;
+    width: 50%;
+    height: 75%;
+    border: 2px solid #000;
+    background-color: white;
+    align-content: center;
+
+}
+.recuadro_rojo{
+    top: 85%;
+    position: absolute;
+    left: -1.1%;
+    width: 100%;
+    height: 15%;
+    border: 2px solid #000;
+    background-color: rgb(129, 31, 31);
+    align-content: center;
+}
+.recuadro_rojo_largo{
+    top: 95%;
+    position: absolute;
+    left: -1.12%;
+    width: 100%;
+    height: 10%;
+    border: 2px solid #000;
+    background-color: rgb(129, 31, 31);
+    align-content: center;
+}
+h1{
+    font-size: 48px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(75, 75, 75);
+}
+h2{
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(123, 123, 123);
+}
+
+p{
+    font-family: Roboto;
+    position: relative;
+    font-size: 24px;
+}
+hr{
+    color: #8B4D4D;
+    background-color: #8B4D4D;
+}
+.col1Pos1{
+    position: absolute;
+    height: 50px;
+    left: 25%;
+}
+.col1Pos2{
+    position: absolute;
+    height: 50px;
+    left: 30%;
+}
+.col1Pos3{
+    position: absolute;
+    height: 50px;
+    left: 35%;
+}
+.col1Pos4{
+    position: absolute;
+    height: 50px;
+    left: 40%;
+}
+.col1Pos5{
+    position: absolute;
+    height: 50px;
+    left: 45%;
+}
+
+.col2Pos1{
+    position: absolute;
+    height: 50px;
+    left: 65%;
+}
+.col2Pos2{
+    position: absolute;
+    height: 50px;
+    left: 70%;
+}
+.col2Pos3{
+    position: absolute;
+    height: 50px;
+    left: 75%;
+}
+.col2Pos4{
+    position: absolute;
+    height: 50px;
+    left: 80%;
+}
+.col2Pos5{
+    position: absolute;
+    height: 50px;
+    left: 85%;
+}
+#infoGrid{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+
+#infoGrid li{
+    margin-bottom: -5%;
+    font-family: Roboto;
+    font-weight: bold;
+}
+#infoGrid ul {
+    list-style-type: none;
+
+}
+#infoGrid h2{
+    display: inline-block;
+    width: 150px;
+}
+.circle {
+    position: absolute;
+    background: rgb(228, 97, 97);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.recuadro_crema{
+    border: 1px solid #adb0b5;
+    position: absolute;
+    background:#E3E4E5;
+    width: 35%;
+    height: 23%;
+}
+.triangle_right {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-right: 40px solid #E3E4E5;;
+    border-bottom: 40px solid transparent;
+}
+.triangle_left {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 40px solid #E3E4E5;
+    border-bottom: 40px solid transparent;
+}
+.anys{
+    position: absolute;
+    color: red;
+    font-weight: bold;
+}
