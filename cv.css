@@ -5,7 +5,8 @@ div{
 body{
     margin-left: 0%;
     margin-top: 0%;
-    margin-right: -1%;
+    margin-right: 0%;
+    width: 100%;
 
     background-color:rgb(147, 147, 147);
 }
@@ -16,29 +17,28 @@ body{
 }
 .fotoFons {
     width: 100%;
-    height: 700px;
+    height: 750px;
 
 }
 #insta{
     position: relative;
-    width: 85px;
+    width: 5%;
     left: 15%;
 }
 #link{
     position: relative;
-    width: 80px;
+    width: 5%;
     left: 40%;
 }
 #gmail{
     position: relative;
-    width: 90px;
+    width: 6%;
     left: 65%;
 }
 #nav{
-    margin-top: 0%;
+    margin-top: -40%;
     position: absolute;
-    top: 10px;
-    left: 53%;
+    left: 58%;
 }
 #nav ul{
     list-style-type: none;
@@ -49,7 +49,7 @@ body{
 
 #nav a{
     display: block;  
-    padding:  50px;
+    padding-left: 50px;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -61,9 +61,10 @@ body{
     float: left;
 }
 #nav img{
-    position: absolute;
-    width: 45px;
-    top: 25%;
+    position: relative;
+    margin-top: -2%;
+    margin-right: 10%;
+    width: 40%;
 }
 .text-card{
     margin-top: 2%;
@@ -90,8 +91,9 @@ body{
 }
 .part-fosca{
     position: absolute;
+    z-index: 0;
     left: -2%;
-    top: 0;
+    top: 0%;
     width: 100%;
     height: 130px; /* Ajusta la altura según lo que necesites */
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.724));
@@ -102,7 +104,6 @@ body{
     margin-top: 10%;
     position: absolute;
     width: 83%;
-    height: 75%;
     border: 2px solid #000;
     background-color: white;
     align-content: center;
@@ -123,18 +124,26 @@ body{
     margin-top: 10%;
     position: absolute;
     width: 50%;
-    height: 75%;
     border: 2px solid #000;
     background-color: white;
     align-content: center;
 
 }
 .recuadro_rojo{
-    top: 85%;
-    position: absolute;
+    position: relative;
     left: -1.1%;
     width: 100%;
     height: 15%;
+    border: 2px solid #000;
+    background-color: rgb(129, 31, 31);
+    align-content: center;
+}
+.recuadro_rojo_curt{
+    position: relative;
+    top: 1%;
+    left: -1.2%;
+    width: 100%;
+    height: 10%;
     border: 2px solid #000;
     background-color: rgb(129, 31, 31);
     align-content: center;
@@ -150,12 +159,12 @@ body{
     align-content: center;
 }
 h1{
-    font-size: 48px;
+    font-size: 250%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(75, 75, 75);
 }
 h2{
-    font-size: 24px;
+    font-size: 150%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(123, 123, 123);
 }
@@ -163,7 +172,7 @@ h2{
 p{
     font-family: Roboto;
     position: relative;
-    font-size: 24px;
+    font-size: 150%;
 }
 hr{
     color: #8B4D4D;
@@ -221,13 +230,13 @@ hr{
     left: 85%;
 }
 #infoGrid{
-    position: absolute;
+    position: relatives;
     top: 25%;
-    left: 30%;
+    margin-left: 35%;
 }
 
 #infoGrid li{
-    margin-bottom: -5%;
+    margin-bottom: -1%;
     font-family: Roboto;
     font-weight: bold;
 }
@@ -237,7 +246,7 @@ hr{
 }
 #infoGrid h2{
     display: inline-block;
-    width: 150px;
+    width: 20%;
 }
 .circle {
     position: absolute;
